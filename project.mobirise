@@ -19,12 +19,13 @@
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": false,
         "isRtl": false
-      }
+      },
+      "additionalSetColors": []
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.1",
     "siteFonts": [],
-    "uniqCompNum": 4,
+    "uniqCompNum": 5,
     "versionPublish": "4.8.1",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/taurus-128x102.png",
@@ -48,14 +49,14 @@
       "components": [
         {
           "_params": {
-            "showImage": true,
             "showTitle": true,
             "showText": false,
-            "showForm": false,
+            "showButtons": false,
+            "inverse": false,
             "showArrow": false,
-            "imageSize": "27",
+            "imageSize": "34",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/img-extheader16-bg.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/landscape.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#2e2e2e",
@@ -65,11 +66,8 @@
             },
             "overlay": true,
             "overlayColor": "#000",
-            "overlayOpacity": "0.3"
+            "overlayOpacity": 0.3
           },
-          "title": "OUR BURDENS ARE REAL",
-          "text": "Full-screen intro with image at the top. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt, neque voluptatibus excepturi laboriosam possimus adipisci quidem dolores omnis, nemo dolore eligendi blanditiis voluptatem in, doloribus hic aperiam maiores fugit.",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">SUBSCRIBE</a>",
           "media": {
             "image": {
               "active": true,
@@ -80,7 +78,7 @@
               "title": ""
             },
             "video": {
-              "src": "https://www.youtube.com/watch?v=Tq7p44IA-1U",
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
               "aspectratio": "16:9",
               "autoplay": false,
               "loop": false
@@ -88,27 +86,22 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-header2",
               "link": "",
-              "size": 0
+              "size": 250
             }
           },
-          "form": {
-            "action": "lamynes.pl@gmail.com",
-            "alerts": {
-              "success": "Thanks for filling out form!"
-            },
-            "fields": {
-              "email": {
-                "title": "Email",
-                "customTitle": "Enter Your Email"
-              }
-            }
-          },
-          "alias": "mobirise3-blocks/components",
+          "title": "Our Burdens are Real",
+          "text": "Full screen intro with parallax image background and color overlay and a picture on right.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
-            "Extension"
+            "Theme"
           ],
-          "_name": "extHeader16",
-          "_anchor": "extHeader16-3"
+          "_name": "header2",
+          "_anchor": "header2-4",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#000000"
+            }
+          }
         }
       ]
     }
