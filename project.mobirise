@@ -56,7 +56,7 @@
             "showArrow": false,
             "imageSize": "34",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/landscape.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/tilt-shift-1493495497760-1920x1080.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#2e2e2e",
@@ -66,13 +66,13 @@
             },
             "overlay": true,
             "overlayColor": "#000",
-            "overlayOpacity": "0.2"
+            "overlayOpacity": "0.5"
           },
           "media": {
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/constellation-vector-astronomy-2-512x512.png",
+              "src": "@PROJECT_PATH@/assets/images/charging-bull-png-8w-1024x813.png",
               "link": "",
               "alt": "",
               "title": ""
