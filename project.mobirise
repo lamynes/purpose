@@ -50,7 +50,7 @@
         {
           "_params": {
             "showTitle": true,
-            "showText": false,
+            "showText": true,
             "showButtons": false,
             "inverse": false,
             "showArrow": false,
@@ -72,7 +72,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/16x16-weed-icon-28-512x512.png",
+              "src": "@PROJECT_PATH@/assets/images/constellation-vector-astronomy-2-512x512.png",
               "link": "",
               "alt": "",
               "title": ""
@@ -89,8 +89,8 @@
               "size": 250
             }
           },
-          "title": "Our Burdens are Real",
-          "text": "Full screen intro with parallax image background and color overlay and a picture on right.",
+          "title": "<span style=\"font-weight: normal;\">DALAI LAMA QUOTE</span>",
+          "text": "“Man…. Because he sacrifices his health in order to make money. Then he sacrifices money to recuperate his health. And then he is so anxious about the future that he does not enjoy the present; the result being that he does not live in the present or the future; he lives as if he is never going to die, and then dies having never really lived.”",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
