@@ -25,14 +25,22 @@
     "versionFirst": "4.8.1",
     "siteFonts": [],
     "uniqCompNum": 4,
-    "versionPublish": "4.8.1"
+    "versionPublish": "4.8.1",
+    "screenshot": "screenshot.png",
+    "favicon": "@PROJECT_PATH@/assets/images/taurus-128x102.png",
+    "noImageResize": "",
+    "google-analytics": "",
+    "cookiesAlert": "",
+    "gdpr": "",
+    "firebaseSnippet": "",
+    "siteUrl": "undefined"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "",
+        "title": "Let's Change The Planet",
+        "meta_descr": "Coming Soon",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
