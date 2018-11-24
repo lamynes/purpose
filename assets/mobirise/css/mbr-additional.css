@@ -678,3 +678,32 @@ h6,
 #header2-4 .mbr-section-title {
   text-shadow: 0 0 15px #ffffff;
 }
+@keyframes blink {
+  0% {
+    text-shadow: 0 0 15px red;
+  }
+  50% {
+    text-shadow: none;
+  }
+  100% {
+    text-shadow: 0 0 15px red;
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    text-shadow: 0 0 15px red;
+  }
+  50% {
+    text-shadow: 0 0 0;
+  }
+  100% {
+    text-shadow: 0 0 15px red;
+  }
+}
+#header2-4 p {
+  -webkit-animation: blink 3.0s linear infinite;
+  -moz-animation: blink 3.0s linear infinite;
+  -ms-animation: blink 3.0s linear infinite;
+  -o-animation: blink 3.0s linear infinite;
+  animation: blink 3.0s linear infinite;
+}
