@@ -675,3 +675,6 @@ h6,
 #header2-4 .mbr-section-text {
   font-size: 17px;
 }
+#header2-4 .mbr-section-title {
+  text-shadow: 0 0 15px #ffffff;
+}
