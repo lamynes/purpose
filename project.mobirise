@@ -42,7 +42,7 @@
         "main": true,
         "title": "Let's Change The Planet",
         "meta_descr": "Coming Soon",
-        "header_custom": "",
+        "header_custom": "<script src=\"https://letschangetheplanet.pushify.com/script.js?category=5c0b9f1fa4eb859e06f06d34\"></script>",
         "footer_custom": "",
         "html_before": ""
       },
